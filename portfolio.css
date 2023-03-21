@@ -1,0 +1,373 @@
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Ubuntu&display=swap');
+
+
+
+#cover{
+    /* height: 920px; */
+    background-image: linear-gradient(90deg, rgb(240, 240, 240), rgb(179, 184, 191)); 
+    box-shadow: 10px 30px 25px 10px #00000028;
+}
+
+
+.coverbuttons{
+  
+    border: none; 
+    height: 80px; 
+    width: 80px; 
+    border-radius: 30px; 
+    color: white; 
+    opacity: 85%;
+    transition: ease-in,2sec; 
+}
+.coverbuttons:hover{
+     box-shadow: 15px 10px 10px 2px #0000000b;
+     transform: scale(1.02);
+     opacity: 100%;
+}
+.homebutton{
+    background-image: linear-gradient(180deg, rgb(58, 72, 234), rgb(41, 98, 254)); 
+    /* margin-left: 200px; */
+  
+   
+
+    
+}
+.aboutbutton{
+    background-image: linear-gradient(180deg, rgb(167, 70, 233), rgb(192, 60, 233));
+    /* margin-left: 150px; */
+   
+   
+}
+.projectbutton{
+     background-image: linear-gradient(180deg, rgb(56, 56, 56), rgb(48, 48, 48)); 
+/* margin-left: 150px; */
+   
+}
+.contactbutton{
+     background-image: linear-gradient(180deg, rgb(241, 60, 114), rgb(210, 54, 132));
+     /* margin-left: 200px; */
+ 
+}
+#home{
+/* margin-left: 230px; */
+margin-top: 5px;
+}
+#about{
+  /* margin-left: 180px; */
+  margin-top: 5px;
+}
+#projects{
+  /* margin-left: 170px; */
+  margin-top: 5px;
+
+}
+#contact{
+  /* margin-left: 225px; */
+  margin-top: 5px;
+}
+
+#soc{
+    opacity: 90%;
+    color: #2c2c2c;
+}
+#soc:hover{
+box-shadow: 5px 5px 10px 2px #0000001d;
+     transform: scale(1.02);
+     opacity: 100%;
+}
+h6{
+   font-family: 'Ubuntu', sans-serif; 
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;   
+}
+#hello{
+    font-size: 6em;
+    font-weight: bold;
+}
+
+#desg{
+font-weight: bold;
+font-size: x-large;
+} 
+
+
+#aboutdiv{
+    position: relative;
+    height: 200px;
+    background:rgb(255, 255, 255);
+}
+#myBtn {
+     
+    position: fixed; 
+    bottom: 20px;
+    right: 10px; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(31, 23, 255); 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 50%; 
+    width: 60px; 
+    height: 60px;
+    opacity: 90%;
+  }
+  #myBtn:hover{
+    box-shadow: 5px 5px 10px 2px #0000001d;
+     transform: scale(1.02);
+     opacity: 100%;
+  }
+  #propic{
+
+    height: 800px;
+  }
+  .propicture{
+    width: 70%;
+    margin-left: 40px;
+    border-radius: 0px;
+    
+    /* box-shadow: 20px 10px 20px 10px #0000000c; */
+  }
+  #buttoncv{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: #2c2c2c;
+    color: white;
+    border-radius: 20px;
+     transition: ease-in,2sec;
+     opacity: 96%;
+  }
+  #buttoncv:hover{
+box-shadow: -5px 5px 10px 2px #0000001d;
+     transform: scale(1.02);
+     opacity: 100%;
+  }
+  #projectdiv{
+box-shadow: 10px 30px 25px 10px #00000028;
+  }
+  .card:hover{
+    box-shadow: 5px 5px 10px 2px #0000001d;
+     transform: scale(1.02);
+     opacity: 100%;
+  }
+  .projectsmain{
+    background-image: linear-gradient(90deg, rgb(39, 39, 39), rgb(53, 53, 53)); 
+  }
+  .soc2{
+   width: 32%;
+   height: 100px;
+   border: none;
+   opacity: 80%;
+   
+   
+  }
+  .soc21{
+    background-image: linear-gradient(90deg, rgb(52, 79, 255), rgb(48, 128, 241) )
+    
+  }
+  .soc22{
+     background-image: linear-gradient(90deg, rgb(250, 80, 100), rgb(199, 54, 54) )
+  }
+  .soc23{
+     background-image: linear-gradient(90deg, rgb(0, 54, 162), rgb(36, 22, 233) )
+  }
+  .soc24{
+    background-image: linear-gradient(90deg, rgb(48, 48, 48), rgb(25, 25, 25) )
+  }
+  .soc25{
+background-image: linear-gradient(90deg, rgb(45, 185, 255), rgb(25, 175, 205) )
+  }
+  .soc26{
+background-image: linear-gradient(90deg, rgb(118, 118, 118), rgb(92, 87, 87) )
+  }
+
+.soc2:hover{
+opacity: 100%;
+ box-shadow: 5px 5px 10px 2px #0000001d;
+     transform: scale(1.02);
+  }
+  .footer{
+    height: 200px;
+    background-color: #2c2c2c;
+  }
+
+  .f1{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    opacity: 60%;
+    
+  }
+  .f1:hover{
+    opacity: 100%;
+  }
+  #social{
+    opacity: 60%;
+  }
+  #social:hover{
+    opacity: 100%;
+    transform: scale(1.03);
+  }
+
+  /* media query */
+  @media(max-width: 768px){
+    .coverbuttons{
+      width: 60px;
+      height: 60px;
+    }
+  
+  }
+    @media(max-width: 667px){}
+ 
+
+
+  @media(max-width: 576px){
+  }
+
+  @media(max-width: 414px){
+    .coverbuttons{
+      width: 40px;
+      height: 40px;
+    }
+
+   #home{
+    font-size: xx-small;
+   }
+  
+   #about{
+
+    font-size: xx-small;
+   }
+
+   #projects{
+    font-size: xx-small;
+   }
+  
+   #contact{
+
+    font-size: xx-small;
+   }
+    #coverpng{
+     width: 60%;
+    }
+    #name{
+     top: 350px;
+     left: 145px;
+     font-size: medium;
+    }
+    #desg{
+     font-size: medium;
+    }
+   #soc{
+    font-size: medium;
+   }
+    #soc{
+      font-size: medium;
+      
+   }
+   #myBtn{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+   }
+   #lum{
+    text-align: center;
+   }
+   #det{
+    text-align: center;
+  }
+  #buttoncv{
+    margin-left: 55px;
+    
+   }
+   #hello{
+    font-size: 3em;
+   }
+   
+  }
+
+     @media(max-width: 375px){
+     .coverbuttons{
+      width: 50px;
+      height: 50px;
+     
+    }
+   #home{
+    font-size: xx-small;
+   }
+
+   #about{
+
+    font-size: xx-small;
+   }
+   #projects{
+
+    font-size: xx-small;
+   }
+ 
+   #contact{
+
+    font-size: xx-small;
+   }
+
+  
+    #hello{
+     font-size: 3em;
+     margin-top: -70px;
+    }
+    #name{
+
+     font-size: medium;
+    }
+    #desg{
+
+     font-size: small;
+    }
+  .socialicon{
+    margin-left: -100px;
+    
+  }
+  #intro{
+    margin-top: 0px;
+  }
+     
+      
+      
+    
+    #lum{
+     text-align: center;
+    }
+    #det{
+      text-align: center;
+    }
+   #buttoncv{
+    margin-left: 40px;
+   }
+   #myBtn{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+   }
+  .introtxt{
+    margin-top: -235px;
+  }
+  #ul1{
+   display: inline-flex;
+   float: none;
+   margin-left: 100px;
+   margin-top: 0px;
+    
+  }
+  #coverpng{
+    margin-top: 50px;
+  }
+     }
+
+   .sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0px;
+}  
+ 
